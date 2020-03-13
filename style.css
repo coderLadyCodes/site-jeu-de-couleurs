@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background: linear-gradient(to bottom left, #ccffff 0%, #ffff99 100%);
+    overflow: hidden;
+    position:relative;
+    height:100vh;
+}
+
+header{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    font-family:'Butterfly Kids', cursive;
+    font-size:1.7rem;
+}
+
+h1, h2{
+    background-image:linear-gradient(to right,darkblue,pink, green,red, blue,lightpink);
+    background-clip:text;
+    -webkit-background-clip: text;
+    color:transparent;
+    
+}
+
+.main-img {
+    font-size:60vh;
+    text-align: center;
+     
+}
+
+.svg{
+   position:absolute;
+   bottom:10%;
+}
+
+
+footer{
+    position:absolute;
+    bottom:0;
+    height: 5em;
+    background-color: rgb(230, 201, 215);
+    width:100vw;
+}
+
+ footer p{
+    text-align:center;
+    padding:10px;
+    font-size:20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:purple;
+    
+}
+
