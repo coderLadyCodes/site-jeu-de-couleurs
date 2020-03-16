@@ -1,5 +1,5 @@
 // when click on the car it changes color, color written beneath the car, and sound! then svg's head moves   
-let car = document.querySelector('.fas fa-car-side');
+let car = document.querySelector('a');
 
 car.addEventListener('click',changeColor);
 
