@@ -9,6 +9,7 @@ body{
     overflow: hidden;
     position:relative;
     height:100vh;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 header{
@@ -17,43 +18,56 @@ header{
     justify-content:center;
     align-items:center;
     font-family:'Butterfly Kids', cursive;
-    font-size:1.7rem;
+    font-size:2rem;
 }
 
 h1, h2{
     background-image:linear-gradient(to right,darkblue,pink, green,red, blue,lightpink);
     background-clip:text;
     -webkit-background-clip: text;
-    color:transparent;
-    
+    color:transparent;   
 }
 
 .main-img {
     font-size:60vh;
     text-align: center;
-     
 }
+
+#color {
+    position:relative;
+    bottom:5%;
+    text-align:center;
+    
+}
+
+#color span{
+    font-size:35px;
+    background-color: red; /*exemple */
+    padding: 40px;
+    border-radius: 50%;
+    
+}
+
 
 .svg{
    position:absolute;
-   bottom:10%;
+   bottom:5%;
 }
 
 
 footer{
     position:absolute;
     bottom:0;
-    height: 5em;
+    height: 4em;
     background-color: rgb(230, 201, 215);
     width:100vw;
 }
 
- footer p{
+footer p{
     text-align:center;
-    padding:10px;
     font-size:20px;
-    font-family: Arial, Helvetica, sans-serif;
-    color:purple;
     
+    color:rgb(241, 112, 241);
+    margin: 7px;
 }
 
