@@ -4,6 +4,7 @@
     box-sizing:border-box;
 }
 
+
 body{
     background: linear-gradient(to bottom left, #ccffff 0%, #ffff99 100%);
     overflow: hidden;
@@ -11,6 +12,7 @@ body{
     height:100vh;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 
 header{
     display:flex;
@@ -21,6 +23,7 @@ header{
     font-size:2rem;
 }
 
+
 h1, h2{
     background-image:linear-gradient(to right,darkblue,pink, green,red, blue,lightpink);
     background-clip:text;
@@ -28,17 +31,25 @@ h1, h2{
     color:transparent;   
 }
 
+
 .main-img {
     font-size:60vh;
     text-align: center;
 }
 
+
+.main-img a {
+    color:red;
+    text-decoration: none;
+}
+
+
 #color {
     position:relative;
     bottom:5%;
     text-align:center;
-    
 }
+
 
 #color span{
     font-size:35px;
@@ -62,6 +73,7 @@ footer{
     background-color: rgb(230, 201, 215);
     width:100vw;
 }
+
 
 footer p{
     text-align:center;
