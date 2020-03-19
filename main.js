@@ -1,12 +1,17 @@
 // when click on the car it changes color, color written beneath the car, and sound! then svg's head moves   
-let car = document.querySelector('a');
-let colors = ["red", "blue", "green", "yellow", "black", "white", "pink", "purple", "orange", "grey"];
-for (let i = 0; i < colors.length; i++);
 
+// to click on the car image
+const car = document.querySelector('a');
 
-car.addEventListener('click',changeColor);
+//colors array
+let colors = ['red', 'blue', 'green', 'yellow', 'black', 'white', 'pink', 'purple', 'orange', 'grey'];
 
-function changeColor(){
-    this.style.color = 'blue'; 
-}
+// add event listener+ function
+car.addEventListener('click', function(){
+    
+    let randomColor = colors[Math.floor(Math.random() * colors.length)];
+     car.style.color = randomColor;
+     
+})
+
 
