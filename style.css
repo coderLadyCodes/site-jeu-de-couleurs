@@ -83,5 +83,10 @@ footer p{
     margin: 7px;
 }
 
+
+@media (max-width: 500px) {
+    
+}
+
 /* it's not responsive yet*/
 
