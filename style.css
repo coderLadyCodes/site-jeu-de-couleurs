@@ -6,7 +6,7 @@
 
 
 body{
-    background: linear-gradient(to bottom left, #ccffff 0%, #ffff99 100%);
+    background: linear-gradient(to bottom left, #ff66ff -11%, #99ffcc 100%);
     overflow: hidden;
     position:relative;
     height:100vh;
@@ -20,12 +20,12 @@ header{
     justify-content:center;
     align-items:center;
     font-family:'Butterfly Kids', cursive;
-    font-size:2rem;
+    font-size:3em;
 }
 
 
 h1, h2{
-    background-image:linear-gradient(to right,darkblue,pink, green,red, blue,lightpink);
+    background-image:linear-gradient(to right,darkblue,yellow ,pink, green,red, blue,purple);
     background-clip:text;
     -webkit-background-clip: text;
     color:transparent;   
@@ -51,12 +51,10 @@ h1, h2{
 }
 
 
-#color span{
-    font-size:35px;
-    background-color: red; /*exemple */
-    padding: 40px;
-    border-radius: 50%;
-    
+#mots {
+    display:none;
+    font-size:5em;
+    text-align:center;   
 }
 
 
@@ -84,9 +82,24 @@ footer p{
 }
 
 
-@media (max-width: 500px) {
+@media (max-width: 800px) {
     
+    header{
+        text-align:center;
+    }
+
+    .main-img{
+       font-size:30rem;
+    }
+
+    .svg{
+        width:"5";
+        height: "5";
+        position:absolute;
+        bottom:3%;   
+        }
 }
 
-/* it's not responsive yet*/
+
+
 
