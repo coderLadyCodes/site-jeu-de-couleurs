@@ -51,7 +51,7 @@ h1, h2{
 }
 
 
-#mots {
+#mots p {
     display:none;
     font-size:5em;
     text-align:center;   
