@@ -92,6 +92,15 @@ footer p{
        font-size:30rem;
     }
 
+    
+footer{
+    position:absolute;
+    bottom:0;
+    height: 3em;
+    background-color: rgb(230, 201, 215);
+    width:100vw;
+}
+
     .svg{
         width:"5";
         height: "5";
