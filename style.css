@@ -111,11 +111,16 @@ footer{
     width:100%;
 }
 
+footer p{
+    text-align:center;
+    font-size:20px;
+    margin: 5px;
+}
+
     .svg{
        position:absolute;
-       bottom:3%;
-       width:5px;
-       height:5px;
+       bottom:7%;
+      
        
         }
 }
