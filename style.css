@@ -82,7 +82,7 @@ footer p{
 }
 
 
-@media (max-width: 800px) {
+@media (max-width: 500px) {
     
     header{
         text-align:center;
