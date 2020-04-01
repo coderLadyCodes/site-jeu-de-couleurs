@@ -82,30 +82,38 @@ footer p{
 }
 
 
-@media (max-width: 500px) {
+@media screen and (max-width: 800px){
     
+    body{
+      height:100vh;
+      width:100vw;
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
+
+
     header{
         text-align:center;
+        font-size: 3rem;
     }
 
     .main-img{
-       font-size:30rem;
-    }
+        font-size:30rem;
+     }
 
     
 footer{
     position:absolute;
     bottom:0;
-    height: 3em;
+    height: 6rem;
     background-color: rgb(230, 201, 215);
-    width:100vw;
+    width:100%;
 }
 
     .svg{
-        width:"5";
-        height: "5";
-        position:absolute;
-        bottom:3%;   
+       position:absolute;
+       bottom:6%;
+       
         }
 }
 
