@@ -98,7 +98,7 @@ footer p{
     }
 
     .main-img{
-        font-size:350px;
+        font-size:250px;
         text-align:center;
      }
 
@@ -106,7 +106,7 @@ footer p{
 footer{
     position:absolute;
     bottom:0;
-    height: 3rem;
+    height: 5rem;
     background-color: rgb(230, 201, 215);
     width:100%;
 }
@@ -114,6 +114,8 @@ footer{
     .svg{
        position:absolute;
        bottom:3%;
+       width:5px;
+       height:5px;
        
         }
 }
