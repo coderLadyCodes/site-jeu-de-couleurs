@@ -82,7 +82,7 @@ footer p{
 }
 
 
-@media (max-width: 600px){
+@media screen and (max-width: 1500px){
     
     body{
       height:100vh;
@@ -100,8 +100,8 @@ footer p{
     }
 
     .main-img {
-        font-size:18rem;
-        margin-top: 50%;
+        font-size:25rem;
+        margin-top: 30%;
      }
 
     
@@ -119,9 +119,7 @@ footer p{
 }
 
     .svg{
-       position:absolute;
-       bottom:5%;
-      
+       display:none
        
         }
 }
