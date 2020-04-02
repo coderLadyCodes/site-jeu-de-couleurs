@@ -88,7 +88,6 @@ footer p{
       height:100vh;
       width:100%;
       background-repeat: no-repeat;
-      overflow: hidden;
       background-size:cover;
     }
 
@@ -96,26 +95,24 @@ footer p{
     header h1, h2{
         text-align:center;
         font-size: 2.5rem;
-        padding-top: 15%;
+        padding-top: 10%;
     }
 
     .main-img {
-        font-size:25rem;
-        margin-top: 30%;
+        font-size:10rem;
+        margin-top: 20%;
      }
 
     
 footer{
     position:absolute;
-    bottom:0;
+    bottom:0%;
     height: 5rem;
 }
 
 footer p{
     text-align:center;
-    font-size:1.5rem;
-    margin-bottom: 1rem;
-    
+    font-size:1.5rem; 
 }
 
     .svg{
